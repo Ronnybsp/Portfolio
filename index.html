@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ronny Brasil" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous" />
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Favicon link -->
+  <link rel="shortcut icon" type="image/jpg/png" href="images\RB.png" />
+  <title>Ronny Brasil - Social Media Designer</title>
+  <!--typed.js cdn-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <!-- Fontawesome cdn link -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <script src="https://kit.fontawesome.com/5888afab31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <div class="header">
+
+
+    <!-- Navbar -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Meu Portfólio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre Mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Minhas Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mywork">Projetos</a>
+              </li>
+              <!--- <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container pt-5">
+          <h1 id="name">Olá, esse é meu portfólio</h1>
+          <h1><span id="blink"></span></h1>
+        </div>
+      </section>
+    </section>
+
+    <!---social Section-->
+    <section id="social">
+      <div class="socialIcons">
+        <div></div>
+        <a href="https://wa.me/5575999846250" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="https://t.me/ronnybsp" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        <a href="https://www.behance.net/ronnybrasil" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/ronny.bsp/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/ronny-brasil/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about pt-5 " id="about">
+      <div class="container mt-5 ">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="imgContainer">
+              <img class="img-fluid" src="./images/perfil.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8 mt-md-4 mt-5">
+            <div class="aboutText">
+              <h1> Sobre <span>Mim </span></h1>
+              <p class="mt-4 pr-4">
+                <b> A primeira impressão é a que conta, e para uma empresa ter sua marca notada no mercado conta muito mais! </b> <p>
+                Sou um designer com experiência em criação
+                de artes para as mídias sociais.
+              </p>
+            </div>
+            <!-- Tab section -->
+            <div class="tabs mt-5">
+              <div class="tab">
+                <input type="radio" id="tab-1" name="tab-group-1" checked />
+                <label for="tab-1">Experiência</label>
+                <div class="content mt-5">
+                  <b> <p> • Realizei alguns trabalhos de Social Media para algumas empresas.
+                  </p>
+                  <p> • Realizei também artes e motions para portfólio.</p> </b>
+
+                  <!-- <p>
+                    Interaction design - Animation <br />
+                    I like to move it move it.
+                  </p>  -->
+                </div>
+              </div>
+               <div class="tab mb-4">
+                <input type="radio" id="tab-2" name="tab-group-1" />
+                <label for="tab-2">Formação</label>
+                <div class="content mt-5">
+                  <p> <b> • Atualmente estou cursando a faculdade de Análise e Desenvolvimento de Sistemas.</p>
+                    <p> • Fiz o curso "Designer de Qualidade"</p>
+                    <p> • Participei de alguns curso que não tiveram a emissão de certificados</p> </b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Skills Section-->
+    <section id="skills">
+      <div class="container">
+        <div class="col-12 text-center text-uppercase skills-heading mb-5">
+          <h2 class="mb-5">Minhas <span>Habilidades</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="skills">
+              <p>Photoshop</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="skills">
+              <p>After Effects</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 44%" aria-valuenow="44" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="skills">
+              <p>Illustrator</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 13%" aria-valuenow="13" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="skills">
+              <p>Sony Vegas</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <!--- <div class="col-lg-4 col-md-6 skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="skills">
+              <p>PHP</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!---Services Section-->
+    <section id="services">
+      <div class="container">
+        <div class="col-12 text-center text-uppercase services-heading mb-5">
+          <h2 class="mb-5">Meus <span class="mb-5">Serviços</span> </h2>
+          <!---<p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+            delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+          </p> -->
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fa fa-instagram"></i>
+
+              </div>
+              <h5>Design Social Media</h5>
+              <p>O design para social media é a criação gráfica dos conteúdos que atraem novos clientes todos os dias para a sua página e também para a sua loja.</p>
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fa fa-flag"></i>
+
+              </div>
+              <h5>Flyer para Campanhas</h5>
+              <p>Flyers tem a missão de divulgar campanhas de promoções e lançamentos, tudo isso também impresso e digital.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fa fa-calendar-check-o"></i>
+
+              </div>
+              <h5>Flyers para Eventos</h5>
+              <p>O objetivo do flyer de eventos é promover o que o evento irá oferecer aos seus potenciais clientes.</p>
+
+            </div>
+          </div>
+          <!--- <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fa fa-play"></i>
+
+              </div>
+              <h5>Edição de Vídeos</h5>
+              <p>Não sei se vou fazer edição kkkkkkkkk</p>
+
+            </div>
+          </div> -->
+          <!--- <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fa fa-border-style"></i>
+
+              </div>
+              <h5>Creative Design</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+            </div>
+          </div> -->
+          <!--- <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="service-container">
+              <div class="logo">
+                <i class="fab fa-blogger"></i>
+
+              </div>
+              <h5>Blogging</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+    <!-- My Projects -->
+    <section id="mywork">
+      <div class="container">
+        <div class="col-12 text-center text-uppercase mywork-heading mb-5">
+          <h2 class="mb-5">Meus <span class="mb-5">Projetos</span> </h2>
+          <p class="mb-5">Estes são alguns projetos que desenvolvi para meus clientes. </p>
+        </div>
+        <div class="col-12">
+          <ul class="d-flex mb-5 flex-wrap">
+            <li class="list active" data-filter="All">Todos</li>
+            <li class="list" data-filter="DP">Detalhes no Papel</li>
+            <li class="list" data-filter="Escola">Escola/Creche</li>
+            <li class="list" data-filter="Upcoming">...</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 main DP">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Dp\Dia dos Pais.png" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Detalhes no Papel</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main DP">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Dp\feed.png" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Detalhes no Papel</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main DP">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Dp\Post.png" alt="" srcset="">
+              <div class="workdetails">
+
+                <h5>Detalhes no Papel</h5>
+              </div>
+
+
+            </div>
+          </div>
+         
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\Aviso.jpeg" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\SJ.jpeg" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\Parabens.jpeg" alt="" srcset="">
+
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\Dia do Estudante.jpeg" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\Comunicado.jpeg" alt="" srcset="">
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 main Escola">
+            <div class="image">
+              <img class="img-fluid" src="images\artes\Escola\07 de Setembro.jpeg" alt="" srcset="">
+
+              <div class="workdetails">
+                <h5>Escola/Creche</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <!-- <section class="testimonial_section pt-4 pb-5">
+      <section class="team-section text-center my-5 container">
+        
+        <h2 class="h1-responsive heading font-weight-bold my-5"><span>Testimonials </span> </h2>
+        
+        <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+          eum porro a pariatur veniam.</p>
+
+        
+        <div class="row text-center">
+
+          
+          <div class="col-md-4 mb-md-0 mb-5">
+
+            <div class="testimonial">
+              
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                  class="rounded-circle z-depth-1 img-fluid">
+              </div>
+              
+              <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+              <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+              <p class="font-weight-normal dark-grey-text">
+                <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              
+              <div class="orange-text">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star-half-alt"> </i>
+              </div>
+            </div>
+
+          </div>
+          
+
+          
+          <div class="col-md-4 mb-md-0 mb-5">
+
+            <div class="testimonial">
+              
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+                  class="rounded-circle z-depth-1 img-fluid">
+              </div>
+              
+              <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+              <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+              <p class="font-weight-normal dark-grey-text">
+                <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                corporis suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              
+              <div class="orange-text">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+              </div>
+            </div>
+
+          </div>
+          
+
+          
+          <div class="col-md-4">
+
+            <div class="testimonial">
+              
+              <div class="avatar mx-auto">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                  class="rounded-circle z-depth-1 img-fluid">
+              </div>
+              
+              <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+              <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
+              <p class="font-weight-normal dark-grey-text">
+                <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti.
+              </p>
+              
+              <div class="orange-text">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="far fa-star"> </i>
+              </div>
+            </div>
+
+          </div>
+      </section> -->
+
+      <!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+  </section> 
+
+
+
+  <!-- Contact section
+  <section class="container ">
+    <div class="row justify-content-center">
+
+      <div class="contactform col-8 ">
+        <h3 class="text-center heading">Contact  <span>
+           Me
+        </span></h3>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Doloremque, soluta quos optio laboriosam corrupti sint? Eligendi,
+          tempore mollitia.</p>
+
+        <form action="" method="post">
+
+          <div class="nameemail d-flex justify-content-between">
+            <input type="text" name="cname" id="" placeholder="Your Name" required>
+
+            <input type="email" name="cemail" id="" placeholder="E-mail Address" required>
+
+          </div>
+          <div class="subnumber d-flex justify-content-between">
+            <input type="text" name="subject" id="" placeholder="Subject" required>
+
+            <input type="text" name="number" id="" placeholder="Phone Number(Optional)">
+
+          </div>
+
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+
+          <a href="#">Submit <i class="fas fa-paper-plane ml-2"></i> </a>
+        </form>
+
+      </div>
+
+    </div>
+  </section> -->
+
+
+
+
+
+
+
+
+  <!-- GO to top button -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // console.log(mybutton.style.display)
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+
+  <!-- Progress indicatior -->
+  <section>
+    <div class="progressbar-container">
+      <div class="progress-bar-indicator" id="myBar"></div>
+    </div>
+    </div>
+  </section>
+  <!-- Progress on scrolling -->
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+  <!--typed.js cdn-->
+  <script src="typed.js"></script>
+
+  <script>
+    var typed = new Typed("#blink", {
+      strings: ["Social Media Design."],
+
+      typeSpeed: 70,
+      backSpeed: 70,
+      loop: true,
+    });
+  </script>
+
+  <!-- Filter -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.list').click(function () {
+        const value = $(this).attr('data-filter');
+        if (value == 'All') {
+          $('.main').show('1000');
+        }
+
+        else {
+          $('.main').not('.' + value).hide('1000');
+          $('.main').filter('.' + value).show('1000');
+        }
+      })
+
+      //add active class on selected item
+
+      $('.list').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+      })
+    }
+
+
+    )
+  </script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper.js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+    integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper.js and Bootstrap JS
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
