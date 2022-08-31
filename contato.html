@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de contatos</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        section#vazio {
+            background-color: rgb(54, 53, 53);
+        }
+
+        section#contatos {
+            background-color: white;
+            text-align: center;
+        }
+
+        section#contatos > div {
+            display: inline-block;
+            margin: 30px 80px;
+        }
+
+        section#contatos > div > p {
+            margin: 30px 0px;
+        }
+
+        section#vazio {
+            text-align: center;
+            padding: 60px;
+        }
+
+        section#vazio > div {
+            display: inline-block;
+            margin: 0px 5px;
+        }
+
+        section#vazio > div > p {
+            color: white;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        section#vazio > div#person {
+            background-color: rgba(0, 255, 255, 0.678);
+        }
+
+        section#vazio > div#person > p {
+            padding: 6px 10px;
+        }
+
+        section#vazio > p {
+            color: white;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="vazio">
+        <div>
+            <p>Meus</p>
+        </div>
+        <div id="person">
+            <p>Contatos</p>
+        </div>
+
+        <p>Entre em contato comigo interagindo nos botões à direita ou através dos contatos abaixo</p>
+    </section>
+    <section id="contatos">
+        <div>
+            <p><b>E-mail</b></p>
+            <p>victormelo@vmconta.com</p>
+        </div>
+        <div>
+            <p><b>Telefone</b></p>
+            <p>(66) 9 96185826</p>
+        </div>
+        <div>
+            <p><b>Localização</b></p>
+            <p>Rondonópolis - Mato Grosso</p>
+        </div>
+    </section>
+</body>
+</html>

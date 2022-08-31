@@ -276,6 +276,10 @@ body {
   background: #191919;
 }
 
+#contacts {
+  background: #191919;
+}
+
 #services .services-heading p {
   text-transform: capitalize;
 }
@@ -288,6 +292,11 @@ body {
 }
 
 #services .services-heading h2 span {
+  background: #0abab5;
+  padding: 0.6rem 1.2rem;
+}
+
+#contacts .services-heading h2 span {
   background: #0abab5;
   padding: 0.6rem 1.2rem;
 }
@@ -483,6 +492,52 @@ body {
   transition: 0.4s;
 }
 
+#myworkk .main .image .workdetails {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+  padding: 0.6rem;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #0abab5;
+  visibility: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+#myworkk .main .image:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#myworkk .main .image img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#myworkk .mywork-heading h2 {
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  position: relative;
+  display: inline-block;
+}
+
+#myworkk .mywork-heading h2 span {
+  background: #0abab5;
+  padding: 0.6rem 1.2rem;
+}
+
+#myworkk .main .image:hover {
+  -webkit-box-shadow: 0 6px 16px rgba(25, 25, 25, 0.9);
+          box-shadow: 0 6px 16px rgba(25, 25, 25, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.38);
+}
+
+
+
 .testimonial_section {
   background: #191919;
 }
@@ -533,4 +588,77 @@ body {
 #myBtn:hover {
   background-color: #555;
 }
+
+
+    .fixarRodape {
+        bottom: 0;
+        text-align: center;
+        background-color: #191919;
+    }
+
+    #fixarRodape {
+      bottom: 0;
+      text-align: center;
+      background-color: #191919;
+  }
+
+    #footer {
+      bottom: 0;
+        text-align: center;
+        background-color: #191919;
+    }
+
+    section#vazio {
+      background-color: #191919;
+  }
+
+  section#contatos {
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+  }
+
+  section#contatos > div {
+      display: inline-block;
+      margin: 30px 80px;
+  }
+
+  section#contatos > div > p {
+      margin: 30px 0px;
+  }
+
+  section#vazio {
+      text-align: center;
+      padding: 60px;
+  }
+
+  section#vazio > div {
+      display: inline-block;
+      margin: 0px 5px;
+  }
+
+  section#vazio > div > p {
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      font-weight: bolder;
+  }
+
+  section#vazio > div#person {
+      background-color: rgba(0, 255, 255, 0.678);
+  }
+
+  section#vazio > div#person > p {
+      padding: 6px 10px;
+  }
+
+  section#vazio > p {
+      color: white;
+      margin-top: 20px;
+  }
+
+  #contacts .services-heading h2 {
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    position: relative;
+    display: inline-block;
+  }
 /*# sourceMappingURL=style.css.map */
