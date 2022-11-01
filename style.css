@@ -35,18 +35,19 @@ body {
 #header nav .navbar-brand {
   font-size: 30px;
   font-weight: bolder;
-  color: #0abab5;
+  color: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 #header nav .navbar-nav .nav-item {
   margin: 0 0.5rem;
+  
 }
 
 #header nav .navbar-nav .nav-item .nav-link {
   position: relative;
   padding-left: 0;
   padding-right: 0;
-  color: white !important;
+  color: white; 
 }
 
 #header nav .navbar-nav .nav-item .nav-link::after {
@@ -56,7 +57,7 @@ body {
   position: absolute;
   left: 0;
   top: 85%;
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -69,14 +70,20 @@ body {
   height: 100vh;
   width: 100%;
   padding-top: 60px;
+  color: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 #header #home #name {
   font-weight: 900;
+
 }
 
 #header #home span {
-  color: #0abab5;
+  background-image: linear-gradient(to bottom, #0000ff, #d03cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
   font-weight: bolder;
   font-size: 55px;
 }
@@ -89,7 +96,7 @@ body {
           transform: translateY(-50%);
   right: 0;
   z-index: 97;
-  color: #0abab5;
+  color: linear-gradient(90deg, #0000ff, #d03cff);;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +143,7 @@ body {
 
 .about .aboutText h1 span {
   background: -webkit-gradient(linear, left top, right top, from(#066865), to(#08938f));
-  background: linear-gradient(90deg, #066865, #08938f);
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 5px 15px;
 }
 
@@ -145,7 +152,7 @@ body {
 }
 
 .about .aboutText p a {
-  color: #09BAB4;
+  color: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 .tabs {
@@ -213,13 +220,13 @@ body {
 }
 
 [type="radio"]:checked ~ label {
-  color: #09BAB4;
+  color: linear-gradient(90deg, #0000ff, #d03cff);
   z-index: 2;
 }
 
 [type="radio"]:checked ~ label::after {
   width: 100%;
-  background: #09BAB4;
+  background: linear-gradient(90deg, #0000ff, #d03cff);
 }
 
 [type="radio"]:checked ~ label ~ .content {
@@ -251,7 +258,7 @@ body {
 
 #skills .skills-heading h2 span {
   background: -webkit-gradient(linear, left top, right top, from(#066865), to(#08938f));
-  background: linear-gradient(90deg, #066865, #08938f);
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 5px 15px;
 }
 
@@ -265,8 +272,8 @@ body {
 }
 
 #skills .skill .skills:hover {
-  -webkit-box-shadow: 0 6px 16px #0abab5;
-          box-shadow: 0 6px 16px #0abab5;
+  -webkit-box-shadow: 0 6px 16px linear-gradient(90deg, #0000ff, #d03cff);;
+          box-shadow: 0 6px 16px linear-gradient(90deg, #0000ff, #d03cff);;
   cursor: pointer;
 }
 
@@ -275,7 +282,7 @@ body {
 }
 
 #skills .skill .skills .progress .progress-bar {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 #services {
@@ -299,12 +306,12 @@ body {
 }
 
 #services .services-heading h2 span {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 0.6rem 1.2rem;
 }
 
 #contacts .services-heading h2 span {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 0.6rem 1.2rem;
 }
 
@@ -328,8 +335,8 @@ body {
   width: 0%;
   height: 0%;
   border-radius: 2rem;
-  background: -webkit-gradient(linear, left top, right top, from(#066865), to(#08938f));
-  background: linear-gradient(90deg, #066865, #08938f);
+  background: -webkit-gradient(linear, left top, right top, from(#0000ff), to(#d03cff));
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
   z-index: -1;
@@ -345,11 +352,11 @@ body {
 }
 
 #services .service-container:hover .logo {
-  background: white;
+  background: linear-gradient(90deg, #d03cff, #0000ff);
 }
 
 #services .service-container:hover i {
-  color: #0abab5;
+  color: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 #services .service-container:hover p {
@@ -358,7 +365,7 @@ body {
 
 #services .service-container .logo {
   margin: 2rem 0;
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   display: inline-block;
   border-radius: 50%;
   -webkit-transition: 0.4s linear;
@@ -398,11 +405,11 @@ body {
 }
 
 #mywork ul li.active {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
 }
 
 #mywork ul li:hover {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   cursor: pointer;
 }
 
@@ -418,7 +425,7 @@ body {
 }
 
 #mywork .mywork-heading h2 span {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   padding: 0.6rem 1.2rem;
 }
 
@@ -481,7 +488,7 @@ body {
   text-align: center;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   visibility: hidden;
   border: 2px solid rgba(255, 255, 255, 0.08);
 }
@@ -510,7 +517,7 @@ body {
   text-align: center;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   visibility: hidden;
   border: 2px solid rgba(255, 255, 255, 0.08);
 }
@@ -533,7 +540,7 @@ body {
 }
 
 #myworkk .mywork-heading h2 span {
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   padding: 0.6rem 1.2rem;
 }
 
@@ -551,13 +558,13 @@ body {
 
 .testimonial_section .heading span {
   background: -webkit-gradient(linear, left top, right top, from(#066865), to(#08938f));
-  background: linear-gradient(90deg, #066865, #08938f);
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 5px 15px;
 }
 
 .heading span {
   background: -webkit-gradient(linear, left top, right top, from(#066865), to(#08938f));
-  background: linear-gradient(90deg, #066865, #08938f);
+  background: linear-gradient(90deg, #0000ff, #d03cff);
   padding: 5px 15px;
 }
 
@@ -572,7 +579,7 @@ body {
 
 .progress-bar-indicator {
   height: 8px;
-  background: #0abab5;
+  background: linear-gradient(90deg, #0000ff, #d03cff);;
   width: 0%;
 }
 

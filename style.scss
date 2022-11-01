@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.7)),
 }
 ////////////////////////////////////////////////
 //////////////  variables //////////////////////
@@ -82,9 +83,11 @@ body {
     height: 100vh;
     width: 100%;
     padding-top: 60px;
+    color: linear-gradient(90deg, #0000ff, #d03cff);;
 
     #name {
       font-weight: 900;
+      color: linear-gradient(90deg, #0000ff, #d03cff);;
     }
     span {
       color: $color;
